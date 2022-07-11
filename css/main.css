@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    height: 100vh;
+}
+
+.wrapper{
+    padding: 30px;
+}
+
+.tools{
+    display: flex;
+}
+
+.canvas{
+    position: relative;
+    
+}
+
+canvas{
+    cursor: crosshair;
+    border: 1px solid black;
+    position: absolute;
+    top: 50px;
+}
+
+button{
+    padding: 5px 10px;
+    border: 1px solid grey;
+    cursor: pointer;
+    background-color: #f1f1f1;
+    border-radius: 4px;
+}
+
+button:hover{
+    background-color: #e5e5e5;
+}
+
+.hide{
+    display: none;
+}
+
+.select{
+    background-color: #d6d6d6;
+}
+
+.functions{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 10px;
+}
+.colors{
+    display: flex;
+    gap: 5px;
+}
+
+.colors >div{
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+}
+
+.violet{
+    background-color: violet;
+}
+
+.indigo{
+    background-color: indigo;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.green{
+    background-color: green;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.orange{
+    background-color: orange;
+}
+
+.red{
+    background-color: red;
+}
+
+
+
+.details{
+    position: absolute;
+    left: 950px;
+    top: 300px;
+}
+
+.details > p{
+    margin: 10px 0;
+}

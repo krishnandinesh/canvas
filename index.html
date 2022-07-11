@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task 3</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div class="wrapper">
+
+        <div class="canvas">
+            <canvas id="finalCanvas" width="900" height="600"></canvas>
+            <canvas id="tempCanvas" class="hide" width="900" height="600"></canvas>
+        </div>
+
+        <div class="functions">
+
+            <div class="colors">
+                <div class="violet" onclick="violet()"></div>
+                <div class="indigo" onclick="indigo()"></div>
+                <div class="blue" onclick="blue()"></div>
+                <div class="green" onclick="green()"></div>
+                <div class="yellow" onclick="yellow()"></div>
+                <div class="orange" onclick="orange()"></div>
+                <div class="red" onclick="red()"></div>
+                
+            </div>
+
+            <button id="rect" onclick="toggleRect()">Rectangle</button>
+            <button id="clear" onclick="clean()">Clear</button>
+
+        </div>
+
+        <div class="details hide" id="details">
+            <p><b>Mouse position on click:</b></p><span id="cl">-</span>
+            <p><b>Mouse position on release:</b></p><span id="re">-</span>
+            <p><b>Size:</b></p><span id="size">-</span>
+        </div>
+
+    </div>
+
+
+    <script src="./javascript/main.js"></script>
+
+</body>
+
+</html>
