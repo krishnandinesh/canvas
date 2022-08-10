@@ -110,36 +110,13 @@ function clean() {
     end.innerHTML = "-";
     size.innerHTML = "-";
 
-    colorsel = "black";
+    // colorsel = "black";
 }
 
-function violet() {
-    colorsel = "violet";
+function color(value) {
+    colorsel = value;
 }
 
-function indigo() {
-    colorsel = "indigo";
-}
-
-function blue() {
-    colorsel = "blue";
-}
-
-function green() {
-    colorsel = "green";
-}
-
-function yellow() {
-    colorsel = "yellow";
-}
-
-function orange() {
-    colorsel = "orange";
-}
-
-function red() {
-    colorsel = "red";
-}
 
 // -----------------------EVENTS-----------------------
 

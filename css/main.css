@@ -32,14 +32,17 @@ canvas{
 
 button{
     padding: 5px 10px;
-    border: 1px solid grey;
+    border: 1px solid #008CBA;
     cursor: pointer;
-    background-color: #f1f1f1;
+    background-color: #fff;
     border-radius: 4px;
+    color: #008CBA;
 }
 
 button:hover{
-    background-color: #e5e5e5;
+    background-color: #008CBA;
+    color: white;
+    border: 1px solid #008CBA;
 }
 
 .hide{
@@ -47,7 +50,9 @@ button:hover{
 }
 
 .select{
-    background-color: #d6d6d6;
+    background-color: #008CBA;
+    color: white;
+    border: 1px solid #008CBA;
 }
 
 .functions{
@@ -93,6 +98,10 @@ button:hover{
 
 .red{
     background-color: red;
+}
+
+.black{
+    background-color: black;
 }
 
 
